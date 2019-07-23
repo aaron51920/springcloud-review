@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uir: http://localhost:2030/
+      profile: dev
+      label: master
+
+server:
+  port: 2040
