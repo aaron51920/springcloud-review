@@ -7,6 +7,8 @@ spring:
         git:
           uri: https://github.com/aaron51920/springcloud-review.git
           search-paths: config-server/config-repo
+          username: aaron51920
+          password: ryu51920
 
 server:
   port: 2030

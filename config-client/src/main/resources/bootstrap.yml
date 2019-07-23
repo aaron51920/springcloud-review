@@ -3,8 +3,8 @@ spring:
     name: config-client
   cloud:
     config:
-      uir: http://localhost:2030/
-      profile: dev
+      uri: http://localhost:2030/
+      profile: default
       label: master
 
 server:
